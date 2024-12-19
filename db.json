@@ -1,0 +1,7 @@
+{
+  "pizzas": [
+    { "id": 1, "name": "Margherita", "price": 8.99, "imageUrl": "/images/margherita.jpg" },
+    { "id": 2, "name": "Pepperoni", "price": 9.99, "imageUrl": "/images/pepperoni.jpg" },
+    { "id": 3, "name": "Veggie", "price": 7.99, "imageUrl": "/images/veggie.jpg" }
+  ]
+}

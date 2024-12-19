@@ -1,0 +1,112 @@
+/* index.css */
+
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+
+/* Add some basic layout styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #ff4500; /* Pizza-themed color */
+  color: white;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #ffddcc; /* Lighter color on hover */
+}
+
+/* AddNewItem.css */
+/* Form container */
+.add-new-item-form {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/* Form elements */
+.add-new-item-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.add-new-item-form input[type="text"],
+.add-new-item-form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styles */
+.add-new-item-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-new-item-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Error message styles */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+/*responsiveness*/
+@media (max-width: 768px) {
+  .custom-class {
+    font-size: 14px;
+  }
+}
